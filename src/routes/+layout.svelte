@@ -3,6 +3,7 @@
 	// import stopSign from '../lib/images/Stop_Frame_16.png';
 	// import zen from '../lib/images/Zen_shot_01.png'
 	
+	import Greeting from '../Greeting.svelte';
 	import Header from '../Header.svelte';
 	import '../app.css';
 
