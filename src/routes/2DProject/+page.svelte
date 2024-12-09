@@ -2,7 +2,7 @@
 	import rttw_featured from '../../lib/images/RTTW_FeaturedShot.png';
 	import stopSign from '../../lib/images/Stop_Frame_12.png';
 	import zen from '../../lib/images/Zen_shot_01.png';
-	import taggedSigns_art from '../../lib/images/TaggesSigns_ConceptArt.png';
+	import taggedSigns_art from '../../lib/images/TaggedSigns_ConceptArt.jpg'
 
 </script>
 
