@@ -1,9 +1,9 @@
 <script>
     let name = 'Greeting';
     
-	import pinkCircle from '../lib/images/GreetingCircle_Pink.png'
-    import yellowCircle from '../lib/images/GreetingCircle_Yellow.png'
-    import purpleCircle from '../lib/images/GreetingCircle_Purple.png'
+	import pinkCircle from '../src/lib/images/GreetingCircle_Pink.png'
+    import yellowCircle from '../src/lib/images/GreetingCircle_Yellow.png'
+    import purpleCircle from '../src/lib/images/GreetingCircle_Purple.png'
 </script>
 
 <app id="greeting">
