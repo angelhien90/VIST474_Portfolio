@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.adobe.com/fonts/arsenica-variable');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+:root {
+    font-family: "Jost", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: #121212;
+    background-color: #EDEDED;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --light: #EDEDED;
+    --gray: #d4d4d4;
+    --dark: #121212;
+    --blueL: #C6DBFB;
+    --blueM: #8DA8D3;
+    --blueD: #37404E;
+
+    --yellowL: #F8D9C2;
+    --yellowM: #FFC590;
+    --yellowD: #9C6737;
+
+    --pinkL: #FFCFDD;
+    --pinkM: #D4A0AF;
+    --pinkD: #642F40;
+
+    --purpleL: #C3BAEA;
+    --purpleM: #766C9F;
+    --purpleD: #433C5D;
+
+    max-width: 100vw;
+}
+
+.jost {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.arsenica {
+    font-family: "Arsenica", sans-serif;
+    font-variation-settings: "opsz" 100, "wght" 400;
+}
+
+.modak-regular {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navBar {
+    background-color: var(--blueD);
+    color: var(--light);
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    min-width: 100vw;
+    margin-bottom: 60px;
+}
+
+.nav {
+    padding: 40px;
+    margin: 40px;
+}
+
+h1 {
+    font-family: "jost", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "jost", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: "jost", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+h4,
+h5,
+h6 {
+    font-family: "jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+p {
+    font-family: "jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+a {
+    font-family: "jost", sans-serif;
+    color: var(--color-theme-1);
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: inherit;
+    color: var(--dark);
+
+    &:hover,
+    &:focus {
+        /* text-decoration: underline; if doing, try low opacity??*/
+        color: var(--blueM);
+    }
+}
+
+/* main {
+	display: grid;
+	grid-template-columns: 40vw 60vw;
+	grid-column: span;
+
+	grid-row: auto;
+	height: 100vh;
+} */
+
+.left {
+    background-color: #b0b0df;
+    color: #2c2c3b;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px;
+    grid-column: 1/2
+}
+
+.right {
+    background-color: #a3a3b4;
+    color: #BEBEFA;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px;
+    grid-column: 2/3;
+    /* position: relative; */
+}
+
+.app {
+    background-color: var(--light);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.button {
+    min-width: 200px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    padding: 2px 30px;
+
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 40px 20px 40px;
+
+    background-color: var(--blueL);
+    color: var(--blueD);
+    cursor: pointer;
+    transition: all 0.5s;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+        background-color: var(--blueD);
+        color: var(--blueL);
+    }
+}
+ 
