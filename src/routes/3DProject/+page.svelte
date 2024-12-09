@@ -1,9 +1,8 @@
-<script lang="ts"> // using ts for the image gallery T.T
-	import rttw_featured from '../../lib/images/rttw_featuredshot.png';
-	import stopSign from '../../lib/images/Stop_Frame_12.png';
-	import zen from '../../lib/images/Zen_shot_01.png';
+<script lang="ts">
+    
 	import soulBarbershop from '../../lib/images/SoulBarbershop_Shot_01.png';
 	
+    // image gallery imports ***
 	// import Image from '$lib/components/Image.svelte';
 	// import Thumbnails from '$lib/components/Thumbnails.svelte';
 	// import type { PageData } from '../about/$types';
@@ -46,7 +45,7 @@
 
 </div>
 
-<!-- imgs frontend  -->
+<!-- img gallery frontend *** -->
 <!-- <main class="container">
 	<div class="wrapper">
 		<h1 class="heading">Svelte CSS Image Slider</h1>

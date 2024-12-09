@@ -1,6 +1,5 @@
 <script lang="ts">
-	import rttw_featured from '../../lib/images/RTTW_FeaturedShot.png';
-	import stopSign from '../../lib/images/Stop_Frame_12.png';
+    
 	import zen from '../../lib/images/Zen_Shot_01.png';
 	
 </script>

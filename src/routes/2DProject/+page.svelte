@@ -1,7 +1,5 @@
-<script lang="ts">
-	import rttw_featured from '../../lib/images/RTTW_FeaturedShot.png';
-	import stopSign from '../../lib/images/Stop_Frame_12.png';
-	import zen from '../../lib/images/Zen_shot_01.png';
+<script lang="ts">  // using ts for the image gallery T.T
+
 	import taggedSigns_art from '../../lib/images/TaggedSigns_ConceptArt.jpg'
 
 </script>
