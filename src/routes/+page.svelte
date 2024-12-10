@@ -1,4 +1,4 @@
-<script>
+<script> // this is homepage
 	
 	import Greeting from '../Greeting.svelte';
 	import Header from '../Header.svelte';

@@ -42,54 +42,6 @@
         width: 80vw;
     }
 
-    .horizAlign {
-        display: inline-block;
-        vertical-align: middle;
-        width: 95%;
-        height: auto;
-        padding: 0px 10px 0px 10px;
-        margin: 0% 2% 0% 2%;
-        border: 1px solid transparent;
-        
-        &.two .item, 
-        &.four .item {width: auto;}
-
-        .item {
-            display: inline-block;
-            vertical-align: middle;
-            height: auto;
-            min-height: 100px;
-            padding-right: 20px;
-            box-sizing: border-box;			
-            background: transparent;
-
-            font-size: 72px;
-            font-weight: 800;
-            line-height: auto;
-            opacity: 90%;
-        }
-        .item_img {
-            display: inline-block;
-            vertical-align: middle;
-            height: auto;
-            min-height: 100px;
-            padding-right: 20px;
-            box-sizing: border-box;			
-            background: transparent;
-
-            font-size: 72px;
-            font-weight: 800;
-            line-height: auto;
-            opacity: 90%;
-                
-            &:hover,
-            &:focus {
-                opacity: 60%;
-                scale: 1.2;
-            }
-        }
-    }
-
     #smallText {
         font-family: "jost", sans-serif;
         font-weight: 500;

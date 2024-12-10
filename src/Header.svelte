@@ -1,6 +1,7 @@
 <script>
-	import { page } from '$app/stores';
+
 	let name = 'Header';
+
 </script>
 
 <header>
@@ -10,13 +11,15 @@
 		</nav>
 
         <nav> 
-            <a class="button" href="#aboutSection">about</a>
+            <a class="button" href="#aboutSection">about</a> 
+			<!-- not developing an 'about me' page, just button for final project submission -->
         </nav>
     </div>
 </header>
 
 <style>
-	#homepage{
+	/* homepage title for navbar (my name) */
+	#homepage{ 
 		font-family: "jost", sans-serif;
 		font-weight: 800;
 		font-size: 36pt;
