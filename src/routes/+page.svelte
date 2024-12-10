@@ -14,8 +14,10 @@
 
 <main class="app_02">
 
+	<!-- left -->
 	<TagBox></TagBox>
 
+	<!-- right -->
 	<WorkGrid></WorkGrid>
 
 </main>

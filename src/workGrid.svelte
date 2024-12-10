@@ -42,7 +42,7 @@
     }
 
     .work_img {
-        width: 50vw;
+        width: 60vw;
         height: auto;
         padding-left: 5%;
     }

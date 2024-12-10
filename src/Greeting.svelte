@@ -38,7 +38,8 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        min-height: 100vh;
+        height: fit-content; /*so the next section on homepage (app_02, tagBox, workGrid) start where greeting/hero section ends*/
+        max-height: 80vh;
         width: 80vw;
     }
 
