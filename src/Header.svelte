@@ -24,11 +24,11 @@
 		font-weight: 800;
 		font-size: 36pt;
 		color: var(--light);
-		padding: 20px;
 		margin-left: 20px;
 
 		&:hover,
 		&:focus {
-			color: var(--blueM);}
+			color: var(--blueM)};
+			transition: 0.3s all;
 	}
 </style>
