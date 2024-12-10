@@ -11,27 +11,42 @@
 
 <main>
 
-    <div><a href="/2DProject" ><img class="work_img" src={taggedSigns_art} alt="2DProject - Tagged Signs Concept Art"></a></div>
+    <div class="workBox"><a href="/2DProject">
+        <img class="work_img" src={taggedSigns_art} alt="2DProject - Tagged Signs Concept Art"></a></div>
 
-    <div><a href="/3DProject" ><img class="work_img" src={wrongTree} alt="3DProject - Wrong Tree Asset Lineup"></a></div>
+    <div class="workBox"><a href="/3DProject">
+        <img class="work_img" src={wrongTree} alt="3DProject - Wrong Tree Asset Lineup"></a></div>
 
-    <div><a href="/layoutProject" ><img class="work_img" src={zen} alt="Layout Project - Zen Environment"></a></div>
+    <div class="workBox"><a href="/layoutProject">
+        <img class="work_img" src={zen} alt="Layout Project - Zen Environment"></a></div>
     
-    <div><a href="/soulBarbershopScene" ><img class="work_img" src={soulBarbershop} alt="3D Recreation - Soul Barbershop"></a></div>
+    <div class="workBox"><a href="/soulBarbershopScene">
+        <img class="work_img" src={soulBarbershop} alt="3D Recreation - Soul Barbershop"></a></div>
 
-    <div><a href="/rttwGame" ><img class="work_img" src={rttw_featured} alt="Team Game - RTTW"></a></div>
+    <div class="workBox"><a href="/rttwGame">
+        <img class="work_img" src={rttw_featured} alt="Team Game - RTTW"></a></div>
 
-    <div><a href="/teapotAsset" ><img class="work_img" src={teapot} alt="3D Recreation Asset - Teapot"></a></div>
+    <div class="workBox"><a href="/teapotAsset">
+        <img class="work_img" src={teapot} alt="3D Recreation Asset - Teapot"></a></div>
 
 </main>
 
 
 
 <style>
-    /*n/a*/
-    .work_img {
-        width: 20vw;
-        height: auto;
+
+    .workBox {
+        padding: 3%;
+        align-items: center;
+        align-self: center;
     }
+
+    .work_img {
+        width: 50vw;
+        height: auto;
+        padding-left: 5%;
+    }
+    
+
 </style>
  

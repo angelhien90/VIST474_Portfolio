@@ -175,33 +175,38 @@ a {
 .app_02 {
     /* for the works section */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: 30vw 70vw;
 }
 
 .tagBox {
     /* left */
-    grid-column: 0/1;
-    gap: 1rem;
+    grid-column: 1/2;
+    padding: 5%;
     background-color: var(--blueD);
+
 }
 
 .workGrid {
     /* right */
     display: grid;
-    gap: 2rem;
+    grid-column: 2/-1;
+    padding: 50px;
+    margin: 50px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 
 @media (min-width: 760px) {
+    /* testing responsiveness */
     .workGrid {
         grid-template-columns: 300px 1fr;
         background-color: red;
         color: #BEBEFA;
         border-radius: 10px;
-        /* padding: 40px;
+        padding: 40px;
         margin: 40px;
-        grid-column: 2/3; */
+        grid-column: 2/3;
     }
 }
 
