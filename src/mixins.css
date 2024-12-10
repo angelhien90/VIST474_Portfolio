@@ -1,0 +1,32 @@
+/* @mixin fontSize($size: 80px) {
+    font-size: $size;
+}
+
+@mixin respond($breakpoint) {
+    $breakpointPX: (
+        $breakpoint) * 1px;
+
+    @if $breakpointPX >800 {
+
+        /*"breakpointPX" on this line only
+        @media (min-width: $breakpointPX) {
+            @content;
+        }
+    }
+
+    @if $breakpoint >500 {
+
+        /*"breakpoint" on this line
+        @media (min-width: $breakpointPX) {
+            @content;
+        }
+    }
+
+    @else {
+
+        /*max width on this one only,, when doing "respond" line, dont put px units, jus the number
+        @media (max-width: $breakpointPX) {
+            @content;
+        }
+    }
+} */
