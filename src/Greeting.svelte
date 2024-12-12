@@ -14,14 +14,14 @@
 
     <div class="horizAlign four">
         <div class="item">i'm a 2D</div>
-        <div class="item_img"><a href="/2DProject" ><img src={purpleCircle} width=45% alt="purple circle"></a></div>
+        <div class="item_img"><a href="/2DProject" ><img src={purpleCircle} alt="purple circle"></a></div>
         <div class="item">, 3D</div>
-        <div class="item_img"><a href="/3DProject" ><img src={yellowCircle} width=45% alt="yellow circle"></a>,</div>
+        <div class="item_img"><a href="/3DProject" ><img src={yellowCircle} alt="yellow circle"></a>,</div>
     </div>
 
     <div class="horizAlign four">
         <div class="item">and layout</div>
-        <div class="item_img"><a href="/layoutProject" ><img src={pinkCircle} width=45% alt="pink circle"></a></div>
+        <div class="item_img"><a href="/layoutProject" ><img src={pinkCircle} alt="pink circle"></a></div>
         <div class="item">artist from</div>
         <div class="item">texas a&m uni.</div>
     </div>
@@ -38,9 +38,10 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: fit-content; /*so the next section on homepage (app_02, tagBox, workGrid) start where greeting/hero section ends*/
-        max-height: 80vh;
-        width: 80vw;
+        height: fit-content; 
+        /*so the next section on homepage (app_02, tagBox, workGrid) start where greeting/hero section ends*/
+        /* max-height: 80vh; */
+        /* width: 80vw; */
     }
 
     #smallText {

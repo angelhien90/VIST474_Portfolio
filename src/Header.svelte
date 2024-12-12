@@ -18,11 +18,15 @@
 </header>
 
 <style>
+
 	/* homepage title for navbar (my name) */
+
 	#homepage{ 
+		height: 6vh;
+		margin-bottom: 20px;
 		font-family: "jost", sans-serif;
 		font-weight: 800;
-		font-size: 36pt;
+		font-size: auto;
 		color: var(--light);
 		margin-left: 20px;
 
@@ -30,5 +34,11 @@
 		&:focus {
 			color: var(--blueM)};
 			transition: 0.3s all;
+	
+		@media (min-width: 440px) { 
+			height: 12vh;
+			margin-bottom: 20px;
+			font-size: 56pt;
+		}
 	}
 </style>
