@@ -17,6 +17,8 @@
     </div>
 </header>
 
+
+
 <style>
 
 	/* homepage title for navbar (my name) */
@@ -38,7 +40,8 @@
 		@media (min-width: 440px) { 
 			height: 12vh;
 			margin-bottom: 20px;
-			font-size: 56pt;
+			font-size: 42pt;
 		}
 	}
+	
 </style>

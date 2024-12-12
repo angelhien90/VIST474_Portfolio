@@ -1,12 +1,11 @@
 <script> // this is homepage
 	
-	import Greeting from '../Greeting.svelte';
-	import Header from '../Header.svelte';
-    import Footer from '../Footer.svelte';
-	import '../app.css';
-	import tagBox from '../tagBox.svelte';
+	import Greeting from '../greeting.svelte';
+	import Header from '../header.svelte';
+    import Footer from '../footer.svelte';
 	import WorkGrid from '../workGrid.svelte';
 	import TagBox from '../tagBox.svelte';
+	import '../app.css';
 
 </script>
 

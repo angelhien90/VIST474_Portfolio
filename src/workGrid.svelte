@@ -46,7 +46,6 @@
         height: auto;
         padding-left: 5%;
     }
-    
 
 </style>
  

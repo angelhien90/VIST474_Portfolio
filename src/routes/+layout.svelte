@@ -1,8 +1,8 @@
 <script> // +layout.svelte is SIBLING to +page.svelte and applies to all child route files,, so universal styles
 	
-	import Footer from '../Footer.svelte';
-	import Greeting from '../Greeting.svelte';
-	import Header from '../Header.svelte';
+	import Footer from '../footer.svelte';
+	import Greeting from '../greeting.svelte';
+	import Header from '../header.svelte';
 	import '../app.css';
 
 	let { children } = $props();

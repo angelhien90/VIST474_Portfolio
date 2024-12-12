@@ -4,7 +4,7 @@
 
 <main>
     <div class="box">
-        <h1>hotel motel holiday inn</h1>
+        <hp>hotel motel holiday inn</hp>
     </div>
 </main>
 
@@ -18,6 +18,7 @@
         background-color: var(--blueD);
         border: 8px solid var(--blueM);
         color: var(--light);
+        font-size: 18px;
     }
     
 </style>

@@ -33,6 +33,7 @@
 </app>
 
 <style>
+
     #greeting {
         background-color: var(--light);
         display: flex;
@@ -40,8 +41,6 @@
         flex-direction: column;
         height: fit-content; 
         /*so the next section on homepage (app_02, tagBox, workGrid) start where greeting/hero section ends*/
-        /* max-height: 80vh; */
-        /* width: 80vw; */
     }
 
     #smallText {

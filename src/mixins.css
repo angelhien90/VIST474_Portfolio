@@ -5,14 +5,6 @@
 @mixin respond($breakpoint) {
     $breakpointPX: ($breakpoint) * 1px;
 
-    /* @if $breakpointPX >800 {
-
-        /*"breakpointPX" on this line only
-        @media (min-width: $breakpointPX) {
-            @content;
-        }
-    } */
-
     @if $breakpointPX < 440 {
 
         /*"breakpointPX" on this line only*/
@@ -20,14 +12,6 @@
             @content;
         }
     }
-
-    /* @if $breakpoint >500 {
-
-        /*"breakpoint" on this line
-        @media (min-width: $breakpointPX) {
-            @content;
-        }
-    } */
 
     @else {
 
